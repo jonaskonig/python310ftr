@@ -23,5 +23,5 @@ COPY requirements.txt .
 
 # install requirements
 RUN pip install -r requirements.txt --no-cache-dir
-RUN pip install ftr-classifier2==2.1 
+RUN pip install ftr-classifier2==2.2
 
